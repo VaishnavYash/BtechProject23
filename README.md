@@ -15,5 +15,7 @@ Application Feature's -
 • In the bottom of the application, we have eight buttons designed, out of which currently only three are working; from button 1, we can see the real-time plot of Channel I, II and III. From button 2, a real-time plot of AVR, AVL, and AVF can be obtained, and from Button 3, the Median Complex of he complete ECG data can be seen.
 • Button 1 and 2 divide each screen into 3 multi- section each for individual plot.
 
+I have used Android Plot library to incorporate Graphs in the Application - https://halfhp.github.io/androidplot/
+
 User Interface -
 ![image](https://github.com/VaishnavYash/BtechProject23/assets/103493455/6165be62-f476-41e2-ada0-d6157ac8ade2)
