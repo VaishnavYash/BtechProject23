@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B6FFFA"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Name: Mr. XYZ"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:text="Age: 52"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Gender: Male"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:text="Blood Type: O-ve"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:background="@color/black"
+            />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:id="@+id/graph_fragment"
+            android:layout_height="600dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="5dp"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/first_btn"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:text="1"
+                    android:layout_height="match_parent"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/second_btn"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="2"
+                    android:layout_height="match_parent"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/third_btn"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="3"
+                    android:layout_height="match_parent"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/forth_btn"
+                    android:layout_width="match_parent"
+                    android:text="4"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="5dp"
+                android:layout_height="match_parent">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/fifth_btn"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:text="5"
+                    android:layout_height="match_parent"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sixth_btn"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="6"
+                    android:layout_height="match_parent"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/seventh_btn"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="7"
+                    android:layout_height="match_parent"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/eighth_btn"
+                    android:layout_width="match_parent"
+                    android:text="8"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

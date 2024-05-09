@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BtechProject23</string>
+    <string name="channel_1">Channel I</string>
+    <string name="channel_2">Channel II</string>
+    <string name="channel_3">Channel III</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="avr">AVR</string>
+    <string name="avl">AVL</string>
+    <string name="avf">AVF</string>
+    <string name="median_complex">Median Complex</string>
+</resources>
